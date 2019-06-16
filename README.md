@@ -1,1 +1,1 @@
-This is code to my personal webiste I created.
+This is the code to my personal webiste I created.
