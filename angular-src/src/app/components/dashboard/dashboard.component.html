@@ -1,0 +1,9 @@
+<div *ngIf="user">
+  <h2 class="page-header text-center">Welcome {{user.first_name}}</h2>
+  <p class="text-center">Thank you for successfully creating an account. Now you can explore my information and learn more about me!</p>
+  <div class="jumbotron text-center">
+    <a class="btn btn-info" [routerLink]="['/education']">Education</a>
+    <a class="btn btn-info" [routerLink]="['/experience']">Experience</a>
+    <a class="btn btn-info" [routerLink]="['/projects']">Projects</a>
+  </div>
+</div>

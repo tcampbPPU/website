@@ -1,0 +1,26 @@
+<div *ngIf="messages">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Created At</th>
+        <th scope="col">Message</th>
+        <th scope='col'>Mark as Read</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let message of messages">
+        <td>{{message.id}}</td>
+        <td>{{message.first_name}}</td>
+        <td>{{message.last_name}}</td>
+        <td>{{message.email}}</td>
+        <td>{{message.created_at}}</td>
+        <td>{{message.message}}</td>
+        <td><button (click)="markedRead(message.id)" type="button" class="btn btn-danger btn-sm" name="button">Read</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

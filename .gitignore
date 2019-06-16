@@ -1,0 +1,14 @@
+# ignore packages installed by npm
+node_modules/
+
+# ignore Angular packages installed by npm
+angular-src/node_modules/
+
+# for MacOS
+.DS_Store
+
+# ignore my secrets
+credentials.js
+
+# ignore my models, only for NoSQl db
+models/
