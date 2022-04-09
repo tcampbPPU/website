@@ -15,7 +15,7 @@
     "cors": "*",
     "express": "*",
     "jsonwebtoken": "*",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mysql": "*",
     "passport": "*",
     "passport-jwt": "*"
